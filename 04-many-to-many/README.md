@@ -2,10 +2,10 @@
 
 ## SWBATs
 
-* [ ] Implement both sides of a many to many relationship
-* [ ] Practice keeping groups of data related to classes on the class as a class variable
-* [ ] Demonstrate _Single Source of Truth_ by **not** storing collections of objects on other objects
-* [ ] Demonstrate _Single Source of Truth_ by **not** storing one object in multiple collections
+* [x] Implement both sides of a many to many relationship
+* [x] Practice keeping groups of data related to classes on the class as a class variable
+* [x] Demonstrate _Single Source of Truth_ by **not** storing collections of objects on other objects
+* [x] Demonstrate _Single Source of Truth_ by **not** storing one object in multiple collections
 
 ## Outline
 
