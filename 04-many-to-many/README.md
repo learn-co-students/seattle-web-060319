@@ -51,10 +51,10 @@ Breweries >- Recipes -<Beers
 
 
 ## Deliverables
-- [ ]User class
-  - [ ] `#like_tweet` that accepts as a tweet instance as a parameter
-  - [ ] `.all` that returns all the instances of a user.
-  - [ ] `#liked_tweets` that returns acollection of all the tweets this userhas liked
+- User class
+  - [x] `#like_tweet` that accepts as a tweet instance as a parameter
+  - [x] `.all` that returns all the instances of a user.
+  - [x] `#liked_tweets` that returns acollection of all the tweets this userhas liked
   - [ ] `#unlike_tweet`
 - Tweet class
 
