@@ -1,8 +1,0 @@
-require './config/environment.rb'
-require 'sinatra/activerecord/rake'
-
-desc 'Run a console'
-task :console do
-  ActiveRecord::Base.logger = Logger.new(STDOUT)
-  Pry.start
-end
