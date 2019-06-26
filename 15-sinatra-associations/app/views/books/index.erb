@@ -1,0 +1,9 @@
+<h1>NYAN CAT</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QH2-TGUlwu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<% @books.each do |book| %>
+  <h4>Title : </h4>
+  <a href="/books/<%= book.id %>"><%= book.title %></a> <br>
+  <h4>Author Name : </h4>
+  <%= book.author%> <br>
+<% end %>
