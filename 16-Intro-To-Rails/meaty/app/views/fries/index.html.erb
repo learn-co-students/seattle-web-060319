@@ -1,0 +1,33 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Fries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Curly</th>
+      <th>Sweet potatoe</th>
+      <th>Waffle</th>
+      <th>Calories</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @fries.each do |fry| %>
+      <tr>
+        <td><%= fry.curly %></td>
+        <td><%= fry.sweet_potatoe %></td>
+        <td><%= fry.waffle %></td>
+        <td><%= fry.calories %></td>
+        <td><%= link_to 'Show', fry %></td>
+        <td><%= link_to 'Edit', edit_fry_path(fry) %></td>
+        <td><%= link_to 'Destroy', fry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Fry', new_fry_path %>

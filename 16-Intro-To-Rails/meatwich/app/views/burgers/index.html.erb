@@ -1,0 +1,12 @@
+<h1>Check out all these burgers yo!</h1>
+<div>
+  <% @burger.each do |burger| %>
+    <p>Name:
+      <%= burger.name.to_s %>
+    </p>
+    <p>Meaty:<%= burger.meat.to_s %></p>
+    <p>Tasty:<%= burger.tasty.to_s %></p>
+    <p>Calories:<%= burger.calories.to_s %></p>
+    <br>
+  <% end %>
+</div>

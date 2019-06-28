@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  curly: false
+  sweet_potatoe: false
+  waffle: false
+  calories: 1
+
+two:
+  curly: false
+  sweet_potatoe: false
+  waffle: false
+  calories: 1

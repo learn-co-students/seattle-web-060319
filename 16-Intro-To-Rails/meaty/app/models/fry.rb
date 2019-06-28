@@ -1,0 +1,2 @@
+class Fry < ApplicationRecord
+end
