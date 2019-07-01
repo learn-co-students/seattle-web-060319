@@ -21,3 +21,4 @@
 | 11. Sinatra && MVC | [Code](https://github.com/learn-co-students/seattle-web-060319/tree/master/13-sinatra-mvc) | [Video](https://youtu.be/AVm_h5LpdYo)|
 | 12. Sinatra CRUD | [Code](https://github.com/learn-co-students/seattle-web-060319/tree/master/14-sinatra-forms-Rest) | [Video](https://youtu.be/GcAAsAxtDlo)|
 | 13. Rails Intro | [Code](https://github.com/learn-co-students/seattle-web-060319/tree/master/16-Intro-To-Rails) | [Pt1](https://youtu.be/zLSr0s8PyzI), [Pt2](https://youtu.be/VHwN2Q5tsdo), [Smoother video](https://www.youtube.com/watch?v=C6Cr0C5eyR4&t=3590s)|
+| 14. Rails CRUD | [Code](https://github.com/learn-co-students/seattle-web-060319/tree/master/17-rails-CRUD) | [Video](https://youtu.be/P3yjYLKHRjU)|
