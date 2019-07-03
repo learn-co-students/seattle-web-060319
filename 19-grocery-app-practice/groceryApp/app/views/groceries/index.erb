@@ -1,0 +1,5 @@
+<% @groceries.each do |grocery| %>
+<h2>Grocery : <%= grocery.name %></h2>
+<h6><%= grocery.price %></h6>
+<%= link_to "List of Customer who bought me: ", find_customers_path(grocery)  %>
+<% end %>
