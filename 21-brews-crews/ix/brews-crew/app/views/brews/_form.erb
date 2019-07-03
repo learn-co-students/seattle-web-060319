@@ -1,0 +1,8 @@
+<h3>Brew Form</h3>
+<%= form_for @brew do |f| %>
+    Blend Name: <%= f.text_field :blend_name %> <br /> <br />
+    Origin: <%= f.text_field :origin %> <br /> <br />
+    Notes: <%= f.text_field :notes %> <br> <br />
+    Strength: <%= f.number_field :strength %> <br> <br />
+    <%= f.submit %>
+    <% end %>
