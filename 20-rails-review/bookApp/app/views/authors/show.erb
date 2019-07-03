@@ -1,0 +1,9 @@
+<h3><%= @author.name %></h3>
+
+<h5>Books : </h5>
+<ul>
+<% @books.each do |book| %>
+<li><%= link_to book.title, book %></li>
+<% end %>
+</ul>
+<h6>Total books :</h6> <%= @author.count_of_books %>
