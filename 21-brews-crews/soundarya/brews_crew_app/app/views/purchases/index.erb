@@ -1,0 +1,4 @@
+<% @purchases.each do |purchase| %>
+  <%=link_to purchase.customer_name, purchase_path(purchase) %>
+  <%= purchase.price %><br>
+<% end %>
