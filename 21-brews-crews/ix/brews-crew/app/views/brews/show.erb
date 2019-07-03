@@ -1,0 +1,9 @@
+<h1><%= @brew.blend_name %></h1>
+<label>Origin:</label>
+<p><%= @brew.origin %></p>
+<label>notes:</label>
+<p><%= @brew.notes %></p>
+<label>strength:</label>
+<p><%= @brew.strength %></p>
+<%= link_to "EDIT", edit_brew_path(@brew) %>
+<%= link_to "DELETE", @brew, method: :delete%>
