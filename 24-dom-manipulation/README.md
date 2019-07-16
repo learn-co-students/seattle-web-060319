@@ -1,5 +1,12 @@
 # Welcome to Mod 3
 
+### Key JS concepts
+
+* `let` vs `const`
+* `function(){}` to define function scope
+* `for(a:b:c)` and `.forEach()` loops
+
+
 ### Day 1 SWBATs
 
 - [ ] Describe the difference between front-end and back-end web programming
@@ -14,3 +21,4 @@
 - [ ] Use different querySelectors to select single or multiple elements
 - [ ] Determine when to target single vs. multiple elements of the DOM
 - [ ] Identify pain points with imperatively manipulating the DOM
+
