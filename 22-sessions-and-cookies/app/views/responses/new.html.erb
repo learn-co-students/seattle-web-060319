@@ -1,0 +1,23 @@
+<h3> Correct So Far:
+  <% if session[:number_correct] %>
+  <%= session[:number_correct] %>
+  <% else %>
+  0
+  <% end %> </h3>
+  <h4><% if flash[:message] %>
+  <%= flash[:message] %>
+  <% end %></h4>
+<h1><%= @question.content %></h1>
+<ul>
+<%= form_with model:@questionResponse do | form | %>
+    <%= form.hidden_field :question_id %>
+    <label>Choices:</label>
+    <% @question.random_answers.each do | answer | %>
+        <div>
+            <label><%= answer.content %></label>
+            <%= form.radio_button :answer_id, answer.id%>
+        </div>
+    <% end %>
+    <%= form.submit "Submit"%>
+<% end %>
+</ul>

@@ -1,0 +1,11 @@
+<h1>Check out all these fries yo!</h1>
+<p>
+  <% @fry.each do |fry| %>
+    <p>Name:<%= fry.name.to_s %></p>
+    <p>Curly:<%= fry.curly.to_s %></p>
+    <p>Sweeties:<%= fry.sweet_potatoe.to_s %></p>
+    <p>Waffly:<%= fry.waffle.to_s %></p>
+    <p>Calories<%= fry.calories.to_s %></p>
+    <br>
+  <% end %>
+</div>

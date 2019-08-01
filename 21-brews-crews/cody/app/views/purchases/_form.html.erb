@@ -1,0 +1,15 @@
+<%=form_for @purchase do |f|%>
+  <%=f.label :customer_name%>
+  <%=f.text_field :customer_name%>
+  <%=f.label :price%>
+  <%=f.text_field :price%>
+  <%=f.label :size%>
+  <%=f.select :size, ['Small', 'Medium', 'Large']%>
+  <%=f.label :creamer_strength%>
+  <%=f.select :creamer_strength, ['Light', 'Regular', 'None']%>
+  <%=f.label :special_instructions%>
+  <%=f.text_field :special_instructions%>
+  <%=f.label :brew%>
+  <%=f.collection_select(:brew_id, @brews, :id, :blend_name)%>
+  <%=f.submit %>
+<%end%>

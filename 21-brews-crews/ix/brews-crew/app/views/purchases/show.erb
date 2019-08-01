@@ -1,0 +1,6 @@
+<h1><%= @purchase.customer_name %></h1>
+<p><%= @purchase.price %></p>
+<p><%= @purchase.creamer_strength %></p>
+<p><%= @purchase.special_instructions %></p>
+<p><%= @purchase.size %></p>
+<%= link_to @purchase.brew.blend_name, brew_path(@purchase.brew) %>

@@ -1,0 +1,16 @@
+<%= flash[:error_message]%>
+<%= form_for @purchase do |f| %>
+<%=f.label  :customer_name %>
+<%=f.text_field :customer_name %>
+<%=f.label  :size %>
+<%=f.text_field :size %>
+<%=f.label  :creamer_strength %>
+<%=f.text_field :creamer_strength %>
+<%=f.label :special_instructions %>
+<%=f.text_field :special_instructions %>
+<%=f.collection_select :brew_id, Brew.all, :id, :blend_name,prompt: true %>
+<%# collection_select(:post, :author_id, Author.all, :id, :name_with_initial, prompt: true) %>
+<%=f.label :price %>
+<%=f.number_field :price ,:step => 0.01 %>
+<%=f.submit %>
+<% end %>

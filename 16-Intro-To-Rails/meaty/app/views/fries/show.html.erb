@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Curly:</strong>
+  <%= @fry.curly %>
+</p>
+
+<p>
+  <strong>Sweet potatoe:</strong>
+  <%= @fry.sweet_potatoe %>
+</p>
+
+<p>
+  <strong>Waffle:</strong>
+  <%= @fry.waffle %>
+</p>
+
+<p>
+  <strong>Calories:</strong>
+  <%= @fry.calories %>
+</p>
+
+<%= link_to 'Edit', edit_fry_path(@fry) %> |
+<%= link_to 'Back', fries_path %>

@@ -1,0 +1,37 @@
+<%= form_with(model: fry, local: true) do |form| %>
+  <% if fry.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(fry.errors.count, "error") %> prohibited this fry from being saved:</h2>
+
+      <ul>
+      <% fry.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :curly %>
+    <%= form.check_box :curly %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sweet_potatoe %>
+    <%= form.check_box :sweet_potatoe %>
+  </div>
+
+  <div class="field">
+    <%= form.label :waffle %>
+    <%= form.check_box :waffle %>
+  </div>
+
+  <div class="field">
+    <%= form.label :calories %>
+    <%= form.number_field :calories %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
